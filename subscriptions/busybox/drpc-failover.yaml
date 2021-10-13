@@ -7,7 +7,7 @@ metadata:
   labels:
     app: busybox-sample
 spec:
-  preferredCluster: "cluster1"
+  preferredCluster: "ekuric-aws-2-mirror"
   action: "Failover"
   failoverCluster: "hub"
   drPolicyRef:
